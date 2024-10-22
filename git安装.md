@@ -96,11 +96,3 @@ git commit -m "Your commit message describing the changes"
 ```bash
 git pull origin main
 ```
-
-**解决可能的合并冲突**（如果有的话），然后再次提交。
-
-**推送更改**：
-
-```bash
-git push -u origin main
-```
