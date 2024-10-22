@@ -41,7 +41,7 @@ git add .
 ”  “里面相当于日志
 
 ```bash
-git commit -m "Add ..... to the repository "
+git commit -m "first commit"
 ```
 
 #### 添加远程仓库
@@ -62,6 +62,7 @@ git remote set-url origin "....."
 
 ```
 git pull origin main --allow-unrelated-histories
+按 Esc，输入 :wq 然后按 Enter。
 git add .
 git commit -m "Resolve merge conflicts"
 ```
@@ -69,18 +70,8 @@ git commit -m "Resolve merge conflicts"
 #### 6.推送到远程仓库
 
 ```bash
-git push -u origin main 	#这里main是枝名
+git push -u origin main 	#这里main是支名
 ```
-
-如果没找对main
-
-```bash
-git branch					#检查当前分支
-git checkout -b main		#可以创建一个并切换到该分支
-git push -u origin master	#可以直接切换到存在的那个分支
-```
-
-
 
 ### 每次修改后重新上传的代码
 
