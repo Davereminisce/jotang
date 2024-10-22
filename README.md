@@ -48,11 +48,11 @@ git安装及上传文件至github
 
 ##### Task2GoogleNet.py
 
-是学习大型GoogleNet进行的复现
+是学习大型GoogleNet在Task2上进行的复现
 
 ##### TaskResNet.py
 
-是学习大型ResNet进行的复现
+是学习大型ResNet在Task2上进行的复现
 
 ### Task3
 
@@ -62,7 +62,7 @@ git安装及上传文件至github
 
 ##### Task3ViT-B-6.py
 
-是参考学习ViT-B-6使用的其参数并复现
+是参考学习ViT-B-6使用的其参数并在Task2上复现
 
 ### Task4
 
