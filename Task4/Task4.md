@@ -399,34 +399,6 @@ AR模型使用注意力机制，预测下一个token，适用于文本生成。�
 
 `homoglyphs.py`和` normalizers.py`：实现 `WatermarkDetector` 使用的算法。
 
-#### 启动应用程序
-
-这里有三种方法
-
-选择简单使用
-
-```
-python app.py
-```
-
-`gradio`模块
-
-这个库可以帮助你快速构建机器学习模型的用户界面。
-
-`transformers`模块
-
-这个库提供了强大的工具来处理各种自然语言处理任务。
-
-`nltk`模块
-
-NLTK 是一个非常强大的自然语言处理库，适用于多种文本处理任务。
-
-
-
-
-
-
-
 #### 水印超参数
 
 ##### 关键参数说明
@@ -491,3 +463,31 @@ score_dict = watermark_detector.detect(output_text)
 ```
 
 使用播种方案 `simple_1` 并在检测时将 `ignore_repeated_ngrams=False`。
+
+#### 启动应用程序
+
+这里有三种方法
+
+选择简单使用
+
+```
+python app.py
+```
+
+`gradio`模块
+
+这个库可以帮助你快速构建机器学习模型的用户界面。
+
+`transformers`模块
+
+这个库提供了强大的工具来处理各种自然语言处理任务。
+
+`nltk`模块
+
+NLTK 是一个非常强大的自然语言处理库，适用于多种文本处理任务。
+
+这之后可以运行但是
+
+![img](https://raw.githubusercontent.com/Davereminisce/image/ca2c870a37fdcd89b54fcf80fa418567b7826a7f/%7BE3A683A6-982D-4B86-A17F-C9DB498ED5D0%7D.png)
+
+out of memory了，毁了
